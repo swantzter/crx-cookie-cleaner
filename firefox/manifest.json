@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Cookie Cleaner",
+  "version": "1.2",
+  "description": "Remove cookies and stored data for Microsoft domains (Firefox only)",
+  "permissions": ["cookies", "browsingData"],
+  "host_permissions": [
+    "*://*.cloud.microsoft/*",
+    "*://*.microsoft.com/*",
+    "*://*.microsoftonline.com/*",
+    "*://*.office.com/*",
+    "*://*.office365.com/*"
+  ],
+  "action": {
+    "default_icon": "icon.svg",
+    "default_popup": "popup.html",
+    "default_title": "Cookie Cleaner"
+  }
+}

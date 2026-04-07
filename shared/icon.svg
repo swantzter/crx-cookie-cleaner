@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <!-- MS text behind the circle -->
+  <text x="24" y="32" text-anchor="middle" font-size="22" font-weight="bold" font-family="sans-serif" fill="#333">MS</text>
+  <!-- Red circle outline (prohibition sign) -->
+  <circle cx="24" cy="24" r="20" fill="none" stroke="#c23616" stroke-width="4"/>
+  <!-- Backslash diagonal line -->
+  <line x1="10" y1="10" x2="38" y2="38" stroke="#c23616" stroke-width="4" stroke-linecap="round"/>
+</svg>
